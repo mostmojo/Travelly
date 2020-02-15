@@ -63,6 +63,7 @@ nav {
 	padding: 2rem;
 	min-height: 10vh;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 nav ul {
@@ -95,4 +96,22 @@ nav ul {
 
 .hero h3 {
 	padding: 5rem;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 932px) {
+
+	html {
+		font-size: 45%;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	#logo {
+		padding: 2rem;
+	}
 }
