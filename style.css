@@ -62,3 +62,8 @@ nav ul {
 #logo {
 	flex: 2 1 40rem;
 }
+
+.hero {
+	min-height: 90vh;
+	background: url('./img/landing-page.jpg');
+}
