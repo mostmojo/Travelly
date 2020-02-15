@@ -10,6 +10,10 @@ html {
 	font-size: 62.5%;
 }
 
+body {
+	font-family: "Poppins", sans-serif;
+}
+
 h1 {
 	font-size: 2.6rem;
 }
@@ -24,6 +28,7 @@ h2 {
 
 h3 {
 	font-size: 3rem;
+	font-weight: 400;
 }
 
 h4, h5 {
@@ -33,6 +38,15 @@ h4, h5 {
 a {
 	color: #ffffff;
 	text-decoration: none;
+}
+
+button {
+	padding: 2rem 6rem;
+	background: #4c6e97;
+	border: none;
+	color: #ffffff;
+	font-size: 1.8rem;
+	cursor: pointer;
 }
 
 /* Nav section with HERO */
@@ -61,6 +75,8 @@ nav ul {
 
 #logo {
 	flex: 2 1 40rem;
+	font-family: 'Pattaya', sans-serif;
+	font-weight: 400;
 }
 
 .hero {
