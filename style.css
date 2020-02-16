@@ -98,6 +98,11 @@ nav ul {
 	padding: 5rem;
 }
 
+/* Benefits section */
+
+#locations {
+	min-height: 100vh;
+}
 
 /* Media queries */
 
