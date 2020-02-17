@@ -107,6 +107,7 @@ nav ul {
 	background-position: center;
 	display: flex;
 	align-items: center;
+	position: relative;
 }
 
 .locations-head {
@@ -125,6 +126,22 @@ nav ul {
 	background: linear-gradient(#131c27, #663b34);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.cloud {
+	position: absolute;
+	top: 0%;
+	right: 0%;
+}
+
+.moving-cloud-1 {
+
+}
+
+.moving-cloud-2 {
+	top: 20%;
+	z-index: -1;
+	opacity: 0.5;
 }
 
 /* Media queries */
