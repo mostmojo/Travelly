@@ -113,6 +113,7 @@ nav ul {
 	display: flex;
 	align-items: center;
 	position: relative;
+	overflow: hidden;
 }
 
 .locations-head {
@@ -147,11 +148,12 @@ nav ul {
 	top: 20%;
 	z-index: -1;
 	opacity: 0.5;
+	animation: cloudsAnimation 5s infinite alternate ease-in-out;
 }
 
 @keyframes cloudsAnimation {
 	from {
-		transform: translate(10%, 10%);
+		transform: translate(10%, -10%);
 	}
 	to {
 		transform: translate(0%, 0%);
@@ -172,5 +174,14 @@ nav ul {
 
 	#logo {
 		padding: 2rem;
+	}
+	.cloud {
+		height: 40rem;
+	}
+	.moving-cloud-1 {
+		z-index: -1;
+	}
+	.moving-cloud-2 {
+		z-index: -2;
 	}
 }
