@@ -188,6 +188,7 @@ nav ul {
 }
 
 .card {
+	text-align: center;
 	flex: 1 1 25rem;
 	min-height: 40vh;
 	margin: 2rem 5rem;
@@ -196,6 +197,9 @@ nav ul {
 
 .cards img {
 	height: 100px;
+}
+
+.card-icon {
 	background: rosybrown;
 }
 
