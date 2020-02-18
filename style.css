@@ -140,7 +140,7 @@ nav ul {
 }
 
 .moving-cloud-1 {
-
+	animation: cloudsAnimation 3s infinite alternate ease-in-out;
 }
 
 .moving-cloud-2 {
@@ -149,7 +149,14 @@ nav ul {
 	opacity: 0.5;
 }
 
-
+@keyframes cloudsAnimation {
+	from {
+		transform: translate(10%, 10%);
+	}
+	to {
+		transform: translate(0%, 0%);
+	}
+}
 
 /* Media queries */
 
