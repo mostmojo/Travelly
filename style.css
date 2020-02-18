@@ -178,8 +178,18 @@ nav ul {
 	padding: 1rem;
 }
 
+.cards {
+	width: 90%;
+	margin: auto;
+	display: flex;
+	min-height 70vh;
+}
+
 .card {
 	background: lightcoral;
+	flex: 1 1 25rem;
+	min-height: 20vh;
+	margin: 2rem 5rem;
 }
 
 .cards img {
