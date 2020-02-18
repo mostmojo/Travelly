@@ -160,6 +160,32 @@ nav ul {
 	}
 }
 
+/* Benefits section */
+
+.benefits-head {
+	background: #343c44;
+	padding: 3rem;
+	min-height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	text-align: center;
+}
+
+.benefits-head h3 {
+	padding: 1rem;
+}
+
+.card {
+	background: lightcoral;
+}
+
+.cards img {
+	height: 100px;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 932px) {
