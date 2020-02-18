@@ -47,6 +47,11 @@ button {
 	color: #ffffff;
 	font-size: 1.8rem;
 	cursor: pointer;
+	transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+	background: #27394e;
 }
 
 /* Nav section with HERO */
@@ -143,6 +148,8 @@ nav ul {
 	z-index: -1;
 	opacity: 0.5;
 }
+
+
 
 /* Media queries */
 
