@@ -226,6 +226,21 @@ nav ul {
 	border-radius: 20px;
 }
 
+.form-head {
+	text-align: center;
+	padding: 4rem;
+}
+
+.name-form {
+	padding: 3rem;
+	text-align: center;
+}
+
+.email-form {
+	padding: 3rem;
+	text-align: center;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 932px) {
